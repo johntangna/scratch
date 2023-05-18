@@ -1,0 +1,158 @@
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  cursor: pointer
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: rgba(144,147,153,.5)
+}
+.sc-graph {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: #ffffff;
+  user-select: none;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.sc-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.sc-background-area {
+  width: 100%;
+  height: 100%;
+}
+
+.sc-main {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.5);
+  padding: 20px 50px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  overflow: overlay;
+}
+
+.sc-header {
+  border-radius: 10px;
+}
+
+.sc-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
+
+.sc-title strong {
+  color: #f77358;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  letter-spacing: 11px;
+}
+
+.sc-title span {
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.sc-center {
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sc-center strong {
+  font-size: 24px;
+}
+
+.sc-center .right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sc-center .right .pandent {
+  margin-right: 20px;
+  padding: 10px 13px;
+  border: 1px solid #d9e0e7;
+  border-radius: 5px;
+}
+
+.sc-center .right .pandent img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+}
+
+.sc-center .right .pandent img + img {
+  margin-left: 25px;
+}
+
+.sc-center .right .operate {
+  background-color: #f88065;
+  border-radius: 5px;
+  padding: 10px 50px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.sc-content {
+  border-radius: 8px;
+  border: 1px solid #d5dce4;
+  display: flex;
+}
+
+.sc-content .left {
+  background-color: #f6fafd;
+  padding: 25px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-right: 1px solid #d5dce4;
+}
+
+.sc-content .left .pendant {
+}
+
+.sc-content .left .deadline .common-border {
+  border: 1px solid #bec7d0;
+}
+
+.sc-content .left .deadline .common-bg-color {
+  background-color: #212c4a;
+}
+
+.sc-content .right {
+  padding: 15px;
+  flex: 3;
+}
+
+.custom-form .ant-form-item {
+  margin-bottom: 0;
+}
+
+.custom-form button .delete {
+  margin-left: 137px;
+  margin-bottom: 11px;
+  padding: 4px 11px;
+}

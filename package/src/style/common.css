@@ -1,0 +1,76 @@
+.flex {
+  display: flex;
+}
+
+.flex_between {
+  justify-content: space-between;
+}
+
+.flex_around {
+  justify-content: space-around;
+}
+
+.flex_align_center {
+  align-items: center;
+}
+
+.flex_warp {
+  flex-wrap: wrap;
+}
+
+.soft_black {
+  color: #1e2c47;
+}
+
+.soft_weight {
+  font-weight: 700;
+}
+
+.soft_weight2 {
+  font-weight: 600;
+}
+
+.soft_gray {
+  color: #98a6b3;
+}
+
+.week_gray {
+  color: #97a4b4;
+}
+
+.border_gray {
+  border: 1px solid #dedfe1;
+}
+
+.date_select_gray {
+  color: #8d9aa3;
+}
+
+.date_type_select {
+  color: #ec8576;
+}
+
+
+.default_font_size {
+  font-size: 12px;
+}
+
+.medium_font_size {
+  font-size: 14px;
+}
+
+.default_margin {
+  margin: 0 11px;
+}
+
+.default_vertical_margin {
+  margin: 15px 0;
+}
+
+.soft_border {
+  border-bottom: 1px solid #d7dadf;
+}
+
+.text_center {
+  text-align: center;
+}

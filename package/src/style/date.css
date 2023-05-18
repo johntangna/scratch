@@ -1,0 +1,37 @@
+.pendant .arrow {
+  font-size: 22px;
+  line-height: 14px;
+}
+
+.pendant .single_date {
+  width: 20px;
+  height: 45px;
+}
+
+.pendant .single_date .date {
+
+}
+
+.pendant .single_date .date .current_date_active {
+  background-color: #f78163;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.pendant .single_date .date .normal_date {
+  line-height: 20px;
+}
+
+.pendant .single_date .status {
+  padding-bottom: 5px;
+}
+
+.pendant .single_date .single_status {
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  margin: 1px 2px;
+}
